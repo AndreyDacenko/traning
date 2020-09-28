@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <p>Name: {{ name }}</p>
+    <p>Last name: {{ lastname }}</p>
+    <p>Age: {{ age }}</p>
+    <p>Profession: {{ profession }}</p>
+
+
+{% set employee = { 'name': 'tom', 'age': 25, 'designation': 'Manager' } %}
+<ul>
+{% for key, value in employee.items() %}
+<li>{{ key }} : {{ value }}</li>
+{% endfor %}
+</ul>
+
+
+<script src="{{ url_for('static', filename='jquery.js') }}"></script>
+</body>
+</html>

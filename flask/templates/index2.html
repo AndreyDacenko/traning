@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Some site</title>
+</head>
+<body>
+
+    <p>Name: {{ name }}</p>
+    <p>Last name: {{ lastname }}</p>
+    <p>Age: {{ age }}</p>
+    <p>Profession: {{ profession }}</p>
+
+
+{% set employee = { 'name': 'tom', 'age': 25, 'designation': 'Manager' } %}
+<ul>
+{% for key, value in employee.items() %}
+<li>{{ key }} : {{ value }}</li>
+{% endfor %}
+</ul>
+
+
+</body>
+</html>
