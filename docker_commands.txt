@@ -1,0 +1,15 @@
+docker build -t hello-world . | создает image с именем hello-world '.' - из текущей папки
+docker ps | показать запущенные контейнеры
+docker ps -a | показать все существующие контейнеры
+docker ps -a -q | показать id всех существующих контейнеров
+docker run hello-world | запускает контейнер из image с именем hello-world (с произвольным именем)
+docker run --name some_name hello-world | запускает контейнер с именем 'some_name'
+docker run --name some_name -d hello-world | запускает контейнер с именем 'some_name' в фоне (можно использовать консоль)
+docker run --name some_name -d --rm hello-world | запускает контейнер и удаляет его после комманды stop
+docker stop some_name / (или id) | остановить контейнер
+docker rm some_name / (или id) | удалить контейнер по имени или id
+docker rm $(docker ps -qa) | удаляет все контейнеры(везде, можно использовать данную команду, но не в винде)
+docker rmi some_name / (или id) | удалить image по имени или id
+docker volume ls | посмотреть, какие папки(volume) есть (папка привязанная к контейнеру (для бд))
+docker volume create some_name | создать volume
+
