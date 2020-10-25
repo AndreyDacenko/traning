@@ -1,0 +1,5 @@
+django-admin startproject NAME | создать проект django с именем NAME
+### Далее зайти в папку с именем NAME ###
+python manage.py migrate | создать БД для django
+python manage.py runserver | запустить сервер django
+python manage.py startapp MyWebPage1 | создать страницу
