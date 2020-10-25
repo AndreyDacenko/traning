@@ -1,0 +1,75 @@
+[
+
+      {
+         "id": "01",
+         "language": "Java",
+		 "year": 2008,
+		 "name": "The Complete Reference",
+         "edition": "third",
+         "author": "Herbert Schildt",
+		 "pages": "1156",
+		 "weight": 1053.4441465688854,
+		 "price": 39.67
+      },
+	  
+	  {
+         "id": "02",
+         "language": "Java",
+		 "year": 2008,
+		 "name": "The Complete Reference",
+         "edition": "third",
+         "author": "Herbert Schildt",
+		 "pages": "1156",
+		 "weight": 1053.4441465688854,
+		 "price": 40.67
+      },
+
+      {
+         "id": "07",
+         "language": "C++",
+		 "year": 2017,
+		 "name": "Object-Oriented Programming with C++",
+         "edition": "second",
+         "author": "E.Balagurusamy",
+		 "pages": "582",
+		 "weight": 648.5674423141428558,
+		 "price": 341.00
+      },
+
+      {
+         "id": "13",
+         "language": "Python",
+		 "year": 2010,
+		 "name": "Python Crash Course",
+         "edition": "thirst",
+         "author": "Eric MatthesEric Matthes",
+		 "pages": 562,
+		 "weight": 534.456432185645,
+		 "price": 9.25
+      },
+
+      {
+         "id": "25",
+         "language": "Python",
+		 "year": 2017,
+		 "name": "Head First",
+         "edition": "second",
+         "author": "Paul Barry",
+		 "pages": 624,
+		 "weight": 728.546451284654,
+		 "price": 31.39
+      },
+
+      {
+         "id": "37",
+         "language": "Python",
+		 "year": 2019,
+		 "name": "A Byte of Python",
+         "edition": "thirst",
+         "author": "Swaroop C.H.",
+         "pages": 149,
+		 "weight": 347.78567467894456,
+		 "price": 18.86
+      }
+
+   ]

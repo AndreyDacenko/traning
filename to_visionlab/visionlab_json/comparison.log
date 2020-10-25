@@ -1,0 +1,17 @@
+INFO:root:{'Java': ['01', '02'], 'C++': ['07'], 'Python': ['13', '25', '37']}
+INFO:root:
+
+Java
+INFO:root:01  -------->  02
+INFO:root:39.67  -------->  40.67
+INFO:root:
+
+Python
+INFO:root:13  -------->  25
+INFO:root:2010  -------->  2017
+INFO:root:Python Crash Course  -------->  Head First
+INFO:root:thirst  -------->  second
+INFO:root:Eric MatthesEric Matthes  -------->  Paul Barry
+INFO:root:562  -------->  624
+INFO:root:534.45643  -------->  728.54645
+INFO:root:9.25  -------->  31.39
